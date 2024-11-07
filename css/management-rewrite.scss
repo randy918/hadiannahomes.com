@@ -186,7 +186,7 @@ h7 {
 }
 
 .small-type:hover {
-    font-color: white;
+    color: white;
 }
 
 .instagram {
@@ -223,6 +223,28 @@ body::-webkit-scrollbar {
     //   width: min(1000px, calc(70% + 100px));
 }
 
+//>  ████████████████████████████████████  
+
+.grid__header--0 {
+    grid-area: header;
+    background-color: transparent;
+    padding-top: 3vw;
+    // padding-bottom: 1.5vw;
+    // margin-top: 8vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    // margin-bottom: 2vw;
+    width: 79vw;
+
+}
+
+.flex__container--0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
 
 
 // .grid__container {

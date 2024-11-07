@@ -114,7 +114,7 @@ h6 {
 }
 
 .small-type:hover {
-  font-color: white;
+  color: white;
 }
 
 .instagram {
@@ -145,6 +145,23 @@ body {
 
 body::-webkit-scrollbar {
   width: 12px;
+}
+
+.grid__header--0 {
+  grid-area: header;
+  background-color: transparent;
+  padding-top: 3vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 79vw;
+}
+
+.flex__container--0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .grid__item {
