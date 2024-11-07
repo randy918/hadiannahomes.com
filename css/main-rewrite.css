@@ -762,7 +762,7 @@ img {
   }
   #logo-instagram {
     position: fixed;
-    top: 10vw; /* Adjust distance from top */
+    top: 4vw; /* Adjust distance from top */
     right: 10vw; /* Adjust distance from right */
     z-index: 1000;
     width: 8vw; /* Ensure it's on top */
@@ -770,7 +770,7 @@ img {
   }
   #logo-tiktok {
     position: fixed;
-    top: 10vw; /* Adjust distance from top */
+    top: 4vw; /* Adjust distance from top */
     right: 20vw; /* Adjust distance from right */
     z-index: 1000;
     width: 8vw; /* Ensure it's on top */
@@ -799,10 +799,6 @@ img {
     margin-left: 15vw;
     margin-right: 10vw;
     width: 79vw;
-  }
-  h4 {
-    font-size: 3vw;
-    color: black;
   }
   .line {
     padding-top: 2vw;
